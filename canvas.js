@@ -1,5 +1,5 @@
-const canvas = document.getElementById("canvas");
-const ctx = canvas.getContext('2d');
+var canvas = document.getElementById("canvas"),
+    ctx = canvas.getContext('2d');
 
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
@@ -34,7 +34,7 @@ function draw() {
   for (var i = 0, x = stars.length; i < x; i++) {
     var s = stars[i];
   
-    ctx.fillStyle = "#fff";
+    ctx.fillStyle = "#000";
     ctx.beginPath();
     ctx.arc(s.x, s.y, s.radius, 0, 2 * Math.PI);
     ctx.fill();
