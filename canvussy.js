@@ -1,4 +1,4 @@
-var canvas = document.getElementById("canvas"),
+var canvas = document.getElementById("canvas1"),
     ctx = canvas.getContext('2d');
 
 canvas.width = window.innerWidth;
@@ -34,7 +34,7 @@ function draw() {
   for (var i = 0, x = stars.length; i < x; i++) {
     var s = stars[i];
   
-    ctx.fillStyle = "#000";
+    ctx.fillStyle = "#fff";
     ctx.beginPath();
     ctx.arc(s.x, s.y, s.radius, 0, 2 * Math.PI);
     ctx.fill();
