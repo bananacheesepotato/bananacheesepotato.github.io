@@ -12,7 +12,7 @@
     width:100%;
     height:inherit;
     overflow: auto;
-    background:radial-gradient(#ffc38c,#ff9b40);
+    background:radial-gradient(#8678ff,#0c33d2);
 }
 
 /* custom properties */
@@ -27,7 +27,7 @@
 
     --clr-light: #fff;
     --clr-dark:#303030;
-    --clr-accent: #16e0bd;
+    --clr-accent: #2588f9d1;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
