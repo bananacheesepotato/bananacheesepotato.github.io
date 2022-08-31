@@ -2,7 +2,7 @@ var canvas = document.getElementById("canvas1"),
     ctx = canvas.getContext('2d');
 
 canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
+canvas.height = document.body.scrollHeight/*window.innerHeight*/;
 
 var stars = [], // Array that contains the stars
     FPS = 60, // Frames per second
